@@ -1,0 +1,5 @@
+.DS_Store
+build/
+*.iml
+.idea/
+products/xcode-frameworks/**

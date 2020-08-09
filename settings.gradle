@@ -1,0 +1,9 @@
+pluginManagement({
+    repositories {
+        gradlePluginPortal()
+        maven { url "https://kotlin.bintray.com/kotlinx" }
+    }
+})
+
+include 'sdk', 'umbrella'
+enableFeaturePreview('GRADLE_METADATA')
